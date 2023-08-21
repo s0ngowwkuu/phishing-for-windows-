@@ -1,0 +1,169 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font: 16px Montserrat, sans-serif;
+    background-color: #111;
+    color: #fff;
+}
+.col-1{
+    text-align: center;
+    margin-top: 7%;
+}
+.col-1 h1{
+    font-size: 35px;
+    font-weight: lighter;
+}
+.col-1 p{
+    cursor: pointer;
+    font-weight: lighter;
+    margin-top: 10px;
+}
+
+.col-2{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+.col-2 h2{
+    font-size: 1rem;
+    font-weight: bold;
+}
+.col-2 h2:hover{
+    cursor: pointer;
+    color: #b3acac;
+}
+.button-dl{
+    padding: 10px 20px;
+}
+button{
+    padding: 5px 10px;
+    border: 1px solid white;
+    border-radius: 5px;
+    background: #000;
+    color: white;
+    box-shadow: 1px 2px 5px #888888;
+}
+button a{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+.icon{
+    cursor: pointer;
+    margin-top: 3px;
+    font-size: 20px;
+}
+.icon .fa-html5{
+    color: rgb(209, 32, 9);
+    padding: 5px;
+}
+.icon .fa-css3-alt{
+    color: rgb(4, 4, 134);
+}
+.icon .fa-js{
+    color: yellow;
+    padding: 5px;
+}
+.fa-triangle-exclamation{
+    color: red;
+}
+.profile{
+    margin-top: 35px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.profile-1{
+    border-radius: 50%;
+    background: #333232;
+    border: 1px solid #dff;
+}
+
+.navbar {
+    overflow: hidden;
+    background: #313030;
+  }
+
+  .navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 12px;
+    text-decoration: none;
+  }
+
+  .navbar a:hover {
+    color: black;
+  }
+
+  .navbar .icon {
+    display: none;
+  }
+
+  
+
+  .navbar .logo img {
+    height: 30px;
+    vertical-align: middle;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  @media screen and (max-width: 600px) {
+    .navbar a:not(:first-child) {
+      display: none;
+    }
+    .navbar a.icon {
+      float: right;
+      display: block;
+    }
+    .navbar .logo {
+      float: none;
+      margin: 0;
+    }
+    .navbar .logo img {
+      height: 40px;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    .navbar.responsive {
+      position: relative;
+    }
+    .navbar.responsive .icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .navbar.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+}
